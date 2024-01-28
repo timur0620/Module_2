@@ -38,10 +38,6 @@ namespace Module_2
             string AverageString = "Average";
             double AveragePoints = 0f;
 
-
-
-
-
             sumPointProgram = float.Parse(ProgPoint_1, CultureInfo.InvariantCulture.NumberFormat) + 
                               float.Parse(ProgPoint_2, CultureInfo.InvariantCulture.NumberFormat) + 
                               float.Parse(ProgPoint_3, CultureInfo.InvariantCulture.NumberFormat);
@@ -55,8 +51,6 @@ namespace Module_2
                            float.Parse(PhysPoint_3, CultureInfo.InvariantCulture.NumberFormat);
 
             AveragePoints = sumPointProgram + sumPointMath + sumPointPhysic / 3;
-
-
 
             Console.Write($"|{fullName,-16} | ->| {fullNameStudent,10} |\n" +
                           $"|{email,-16} | ->| {emailStudent,10}         |\n" +
